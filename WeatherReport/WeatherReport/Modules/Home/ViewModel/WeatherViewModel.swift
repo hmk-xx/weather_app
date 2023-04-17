@@ -35,7 +35,7 @@ class WeatherViewModel : NSObject {
         }
     }
     
-    // USA Locations list
+    // Cities list
     func getCityList() -> [String] {
         return ["Florida", "Miami", "Newyork", "Texas", "California", "Chicago", "Austin"]
     }

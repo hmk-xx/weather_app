@@ -107,7 +107,7 @@ extension ViewController: UITableViewDataSource {
         let cell = tableViewCity.dequeueReusableCell(withIdentifier: Constants.CellIdentifier.cityTableViewCell,
                                                      for: indexPath) as! CityTableViewCell
         let city = self.weatherViewModel.getCityList()[indexPath.row]
-        cell.updateUI(location: city)
+        cell.updateUI(city: city)
         return cell
     }
 }

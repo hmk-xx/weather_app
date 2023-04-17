@@ -16,8 +16,11 @@ class CityTableViewCell: UITableViewCell {
         // Initialization code
     }
     
-    func updateUI(location: String) {
-        self.labelCity.text = location
+    // function updateUI - Update city name on UITableViewCell
+    /// parameters
+    //  city - String
+    func updateUI(city: String) {
+        self.labelCity.text = city
         self.selectionStyle = .none
     }
 }
